@@ -33,3 +33,5 @@ class ListsController < ApplicationController
     params.require(:list).permit(:title, :body, :image)
   end
 end
+
+# http://localhost:3000/lists/1
